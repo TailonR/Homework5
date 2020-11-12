@@ -2,15 +2,24 @@
 // Author: Tailon Russell
 // Date: 11/9/2020.
 // Purpose: The source file for the build function
-//    and various other helper functions
+//    and it's workhorse function
 
 #include <iostream>
 #include <algorithm>
 #include "../Header/build.hpp"
 
+// int build
+// given the number of west and east cities and a list of bridges
+//  return the max toll to charge of bridges built following client defined requirements
+// Pre: bridges needs to be a valid vector of ints
 int build(int w, int e, const Bridges &bridges) {
     return buildWorker(w,e,bridges);
 }
+
+// int build
+// given the number of west and east cities and a list of bridges
+//  find the max toll to charge
+// Pre: bridges needs to be a valid vector of ints
 int buildWorker(int w, int e, const Bridges &bridges) {
 
     if(bridges.empty())
