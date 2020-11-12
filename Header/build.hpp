@@ -13,5 +13,4 @@ using Bridges = std::vector<Bridge>;
 using BridgeIter = std::vector<Bridge>::const_iterator;
 int build(int w, int e, const Bridges &bridges);
 int buildWorker(int w, int e, const Bridges &bridges);
-std::vector<BridgeIter> findBridge(int, int, const Bridges&);
 #endif //HOMEWORK2_BUILD_H
