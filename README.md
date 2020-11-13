@@ -1,4 +1,4 @@
-# Solution to Homework2 CS411 UAF
+# Solution to Homework5 CS411 UAF
 This solution finds the optimal solution to the problem via bottom-up dynamic programming
 
 This project was developed in Clion.
